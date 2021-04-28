@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-color: lightpink;
+	text-align: center;
+}
+div{
+	width: 40%;
+	height: 800px;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+}
+.antraste{
+	padding-top: 40px;
+	box-shadow: 8px 8px 8px #b51b3f;
+	text-shadow: 5px 2px 4px #a633b5;
+}
+h1{
+	font-size: 50px;
+	color: #5b267a;
+	text-shadow: 2px 2px black;
+	font-family: 'Sacramento', cursive;
+}
+pre{
+	font-family: 'Kaushan Script', cursive;
+	color: #36082b;
+	font-size: 40px;
+	line-height: 34px;
+	letter-spacing: 1.4px;
+}
+.foto{
+	position: relative;
+	overflow: hidden;
+	border-radius: 32% 15% 32% 15%;
+}
+.mama{
+	width: 70%px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+.puokste{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	mix-blend-mode: screen;
+
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-image: url(heart2.png);
+	background-repeat: repeat;
+	background-size: contain;
+	background-position: bottom;
+	padding-top: 50px;
+	background-color: aquamarine;
+    
+}
+footer p{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #8e3afc;
+}
